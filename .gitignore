@@ -1,0 +1,19 @@
+# Rust
+/target/
+**/target/
+# Node / web
+node_modules/
+dist/
+# Swift
+.build/
+*.xcodeproj/xcuserdata/
+# Generated audio fixtures (regenerate with scripts/gen-fixtures.sh)
+fixtures/*.wav
+# Claude Code personal overrides and worktrees
+.claude/settings.local.json
+.claude/worktrees/
+# macOS
+.DS_Store
+# Secrets
+.env
+*.p12
